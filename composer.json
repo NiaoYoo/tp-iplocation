@@ -1,0 +1,21 @@
+{
+    "name": "niaoyoo/iplocation",
+    "description": "纯真IP库",
+    "keywords":["thinkphp","iplocation","thinkphpIP"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niaoyoo",
+            "email": "email@NiaoYoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SK\\":""
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
