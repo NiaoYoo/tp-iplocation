@@ -1,3 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/niaoyoo/iplocation/v/stable)](https://packagist.org/packages/niaoyoo/iplocation)
+[![Total Downloads](https://poser.pugx.org/niaoyoo/iplocation/downloads)](https://packagist.org/packages/niaoyoo/iplocation)
+[![Latest Unstable Version](https://poser.pugx.org/niaoyoo/iplocation/v/unstable)](https://packagist.org/packages/niaoyoo/iplocation)
+[![License](https://poser.pugx.org/niaoyoo/iplocation/license)](https://packagist.org/packages/niaoyoo/iplocation)
 ## 安装
 
 安装这个扩展的首选方式是通过 [composer](http://getcomposer.org/download/).
@@ -5,7 +9,7 @@
 执行
 
 ```bash
-composer require --prefer-dist niaoyoo/iplocation
+composer require niaoyoo/iplocation
 ```
 
 或添加
@@ -16,7 +20,7 @@ composer require --prefer-dist niaoyoo/iplocation
 
 ## 根据IP查询
 ```php
-use SK\IpLocation;
+use IpLocation;
 
 $ipLocation = new IpLocation();
 $locationModel = $ipLocation->getLocation('8.8.8.8');
